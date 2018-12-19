@@ -1,0 +1,35 @@
+.div1 {
+	position: fixed;
+	left: 40%;
+	top: 30%;
+	display: none;
+	width: 200px;
+	height: 200px;
+	border: 2px solid rgba(165, 220, 134, 0.2);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 200px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+
+.bounceinDown {
+	-webkit-animation: bounceinDownAnimate 1s ease .5s infinite;
+	animation: bounceinDownAnimate 5s ease .5s infinite;
+}
+
+
+/*@-webkit-keyframes bounceinDownAnimate {
+				0% {
+					-webkit-transform: translateY(-200px);
+				}
+				30% {
+					-webkit-transform: translateY(30px);
+				}
+				70% {
+					-webkit-transform: translateY(-10px);
+				}
+				100% {
+					-webkit-transform: translateY(0px);
+				}
+			}*/

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lanqiao.dao.UserMapper">
+
+  <insert id="insert" parameterType="org.lanqiao.entity.User">
+  	insert into user (username,password,birthday,age,email) values 
+  	(#{username},#{password},#{birthday},#{age},#{email})
+  </insert>
+  
+  <select id="getAllUser" resultType="org.lanqiao.entity.User">
+  	select * from user
+  </select>
+  
+  <select id="getAllUsers" resultType="org.lanqiao.entity.Users">
+  	select * from user
+  </select>
+  
+  <update id="updateUserPwd" parameterType="org.lanqiao.entity.User">
+  	update user set password = #{password} where username = #{username}
+  </update>
+  
+  <update id="updateUsersPwd" parameterType="org.lanqiao.entity.Users">
+  	update user set userTel = #{userTel} where userName = #{userName}
+  </update>
+  
+</mapper>
