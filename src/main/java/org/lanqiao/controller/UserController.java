@@ -82,7 +82,7 @@ public class UserController {
 		String userPwd = String.valueOf((int)(Math.random() * 100000));
 		log.info("userName 的值为:" + userName);
 		log.info("userPwd 的值为:" + userPwd);
-		log.info("userName 为:" + userName + " 的用户sessionID = " + session.getId());
+		log.info("userName 为:" + userName + " 的用户 sessionID = " + session.getId());
 		user.setUsername(userName);
 		user.setPassword(userPwd);
 		int returnFlag = userService.updateUserPwd(user);
