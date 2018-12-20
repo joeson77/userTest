@@ -7,7 +7,7 @@ LABEL maintainer="liyunjian"
 #运行安装telnet和nc
 RUN apt-get install -y telnet nc; exit 0
 
-#
+#挂载点
 VOLUME ["/tomcat/data"]
 
 #TOMCAT环境变量
