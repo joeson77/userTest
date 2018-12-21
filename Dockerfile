@@ -5,7 +5,7 @@ FROM tomcat:7.0.92
 LABEL maintainer="liyunjian"
 
 #运行安装telnet和nc
-RUN apt-get install -y telnet nc; exit 0
+RUN apt-get install -y vim ; exit 0
 
 #挂载点
 VOLUME ["/tomcat/data"]
