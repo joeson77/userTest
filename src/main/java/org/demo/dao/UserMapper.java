@@ -1,9 +1,9 @@
-package org.lanqiao.dao;
+package org.demo.dao;
 
 import java.util.List;
 
-import org.lanqiao.entity.User;
-import org.lanqiao.entity.Users;
+import org.demo.entity.User;
+import org.demo.entity.Users;
 
 public interface UserMapper {
 	

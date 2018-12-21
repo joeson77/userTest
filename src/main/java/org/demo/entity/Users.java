@@ -1,4 +1,4 @@
-package org.lanqiao.entity;
+package org.demo.entity;
 
 public class Users {
 	

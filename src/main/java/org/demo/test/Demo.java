@@ -1,4 +1,4 @@
-package org.lanqiao.test;
+package org.demo.test;
 
 import java.util.ArrayList;
 import java.util.HashMap;

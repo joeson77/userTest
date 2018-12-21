@@ -19,7 +19,7 @@
 		/> -->
 	<!-- 引入配置文件 -->
 	
-	<context:component-scan base-package="org.lanqiao.service" />
+	<context:component-scan base-package="org.demo.service" />
 	
 	<bean id="propertyConfigurer"
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -48,12 +48,12 @@
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<!-- 自动扫描mapping.xml文件 -->
-		<property name="mapperLocations" value="classpath:org/lanqiao/mapper/*.xml" />
+		<property name="mapperLocations" value="classpath:org/demo/mapper/*.xml" />
 	</bean>
 
 	<!-- DAO接口所在包名，Spring会自动查找其下的类 -->
  	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="org.lanqiao.dao" />
+		<property name="basePackage" value="org.demo.dao" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
 	</bean> 
 

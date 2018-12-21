@@ -11,8 +11,8 @@
     http://www.springframework.org/schema/mvc 
     http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	<!-- 设置使用注解的类所在的jar包 -->
-	<context:component-scan base-package="org.lanqiao.controller" />
-	<!-- <context:component-scan base-package="org.lanqiao.service" /> -->
+	<context:component-scan base-package="org.demo.controller" />
+	<!-- <context:component-scan base-package="org.demo.service" /> -->
 	<!-- 注册HandlerMapping和HandlerAdapter组件 -->
 	<mvc:annotation-driven />
 	<!-- 对静态资源文件的访问 支持访问WEB-INF目录 -->

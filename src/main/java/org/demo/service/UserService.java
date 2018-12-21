@@ -1,9 +1,9 @@
-package org.lanqiao.service;
+package org.demo.service;
 
 import java.util.List;
 
-import org.lanqiao.entity.User;
-import org.lanqiao.entity.Users;
+import org.demo.entity.User;
+import org.demo.entity.Users;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 

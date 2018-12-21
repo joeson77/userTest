@@ -1,4 +1,4 @@
-package org.lanqiao.util;
+package org.demo.util;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

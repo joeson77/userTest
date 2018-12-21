@@ -1,4 +1,4 @@
-package org.lanqiao.controller;
+package org.demo.controller;
 
 
 import java.util.HashMap;
@@ -9,10 +9,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
-import org.lanqiao.entity.User;
-import org.lanqiao.entity.Users;
-import org.lanqiao.service.UserService;
-import org.lanqiao.util.StringUtil;
+import org.demo.entity.User;
+import org.demo.entity.Users;
+import org.demo.service.UserService;
+import org.demo.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

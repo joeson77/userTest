@@ -1,4 +1,4 @@
-package org.lanqiao.util;
+package org.demo.util;
 
 import javax.servlet.http.HttpServletRequest;
 

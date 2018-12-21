@@ -1,13 +1,13 @@
-package org.lanqiao.service;
+package org.demo.service;
 
 import java.sql.SQLDataException;
 import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.lanqiao.dao.UserMapper;
-import org.lanqiao.entity.User;
-import org.lanqiao.entity.Users;
+import org.demo.dao.UserMapper;
+import org.demo.entity.User;
+import org.demo.entity.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.PlatformTransactionManager;
