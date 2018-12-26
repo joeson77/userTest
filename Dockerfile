@@ -24,4 +24,4 @@ ENTRYPOINT ["catalina.sh","run"]
 #   CMD nc -z localhost 5198 >/dev/null || exit 1
 
 #拷贝war包到tomcat
-COPY target/userTest.war ${CATALINA_HOME}/webapps/
+COPY userTest/target/userTest.war ${CATALINA_HOME}/webapps/
